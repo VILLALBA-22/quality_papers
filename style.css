@@ -65,9 +65,11 @@ form > input:focus{
     background: linear-gradient(90deg, rgba(225,132,237,1) 0%, rgba(56,167,255,1) 100%);
     border: 0;
     border-radius: 5px;
-    color: white;
     font-weight: bold;
     font-size: 15px;
+    transition-property: color;
+    transition-duration: 500ms;
+    color: white;
 }
 
 .submit:hover{
@@ -116,4 +118,5 @@ form > input:focus{
         height: 50px;
         padding: 15px;
     }
+    
 }
